@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_nGqdkdT_EeWkJYvxcgESxg"
+      guid="_nGqdkdT_EeWkJYvxcgESxg">
+    <resourceDescriptors xmi:id="_nGqdktT_EeWkJYvxcgESxg" id="-X7JGdZ7maRTw4R2t8o8vyg"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_nFagYNT_EeWkJYvxcgESxg" name="delivery process"
+      guid="_nFagYNT_EeWkJYvxcgESxg">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zWc0MNT_EeWkJYvxcgESxg"
+        name="Inception" guid="_zWc0MNT_EeWkJYvxcgESxg">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_zWc0MdT_EeWkJYvxcgESxg"
+          name="Inception" guid="_zWc0MdT_EeWkJYvxcgESxg" presentationName="Inception"
+          superActivities="_nFagYdT_EeWkJYvxcgESxg" linkToPredecessor="_NNuUMNUAEeWkJYvxcgESxg _NNuUMdUAEeWkJYvxcgESxg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NNuUMNUAEeWkJYvxcgESxg"
+          guid="_NNuUMNUAEeWkJYvxcgESxg" pred="_B_AZAdUAEeWkJYvxcgESxg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NNuUMdUAEeWkJYvxcgESxg"
+          guid="_NNuUMdUAEeWkJYvxcgESxg" pred="_FGfuYdUAEeWkJYvxcgESxg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_B_AZANUAEeWkJYvxcgESxg"
+        name="Elaboration" guid="_B_AZANUAEeWkJYvxcgESxg">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_B_AZAdUAEeWkJYvxcgESxg"
+          name="Elaboration" guid="_B_AZAdUAEeWkJYvxcgESxg" presentationName="Elaboration"
+          superActivities="_nFagYdT_EeWkJYvxcgESxg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_FGfuYNUAEeWkJYvxcgESxg"
+        name="Construction" guid="_FGfuYNUAEeWkJYvxcgESxg">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_FGfuYdUAEeWkJYvxcgESxg"
+          name="Construction" guid="_FGfuYdUAEeWkJYvxcgESxg" presentationName="Construction"
+          superActivities="_nFagYdT_EeWkJYvxcgESxg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_GqNj4NUAEeWkJYvxcgESxg"
+        name="Trasnition" guid="_GqNj4NUAEeWkJYvxcgESxg">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_GqNj4dUAEeWkJYvxcgESxg"
+          name="Trasnition" guid="_GqNj4dUAEeWkJYvxcgESxg" presentationName="Transition"
+          superActivities="_nFagYdT_EeWkJYvxcgESxg"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_nFagYdT_EeWkJYvxcgESxg"
+        name="delivery process" guid="_nFagYdT_EeWkJYvxcgESxg" presentationName="delivery process"
+        processLineName="ProcessLine" breakdownElements="_zWc0MdT_EeWkJYvxcgESxg _B_AZAdUAEeWkJYvxcgESxg _FGfuYdUAEeWkJYvxcgESxg _GqNj4dUAEeWkJYvxcgESxg">
+      <presentation xmi:id="-X7JGdZ7maRTw4R2t8o8vyg" href="uma://-X7JGdZ7maRTw4R2t8o8vyg#-X7JGdZ7maRTw4R2t8o8vyg"/>
+      <defaultContext href="uma://_r4HsUdT9EeWkJYvxcgESxg#_MgtIENT-EeWkJYvxcgESxg"/>
+      <validContext href="uma://_r4HsUdT9EeWkJYvxcgESxg#_MgtIENT-EeWkJYvxcgESxg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
