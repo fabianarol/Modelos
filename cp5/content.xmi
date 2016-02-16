@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Xq0jAdCUan8hQ9TuPCwWBQ" name="cp5,_kbTE0YzEEeWl2bE5CkpJRw"
+      guid="-Xq0jAdCUan8hQ9TuPCwWBQ"/>
+  <org.eclipse.epf.uma:BreakdownElementDescription xmi:id="___KpgYzEEeWl2bE5CkpJRw"
+      guid="___KpgYzEEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:BreakdownElementDescription xmi:id="_CDqQ0YzFEeWl2bE5CkpJRw"
+      guid="_CDqQ0YzFEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:BreakdownElementDescription xmi:id="_Ex-4QYzFEeWl2bE5CkpJRw"
+      guid="_Ex-4QYzFEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_V4ZmoYzFEeWl2bE5CkpJRw" guid="_V4ZmoYzFEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_X0FQMYzFEeWl2bE5CkpJRw" guid="_X0FQMYzFEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_Zj_HkYzFEeWl2bE5CkpJRw" guid="_Zj_HkYzFEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_D2aLYYzGEeWl2bE5CkpJRw" guid="_D2aLYYzGEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_HMsKsYzGEeWl2bE5CkpJRw" guid="_HMsKsYzGEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_I5HQQYzGEeWl2bE5CkpJRw" guid="_I5HQQYzGEeWl2bE5CkpJRw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_QFttMZh0EeWt_-DrS0FuHQ" guid="_QFttMZh0EeWt_-DrS0FuHQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_R-wDsZh6EeWt_-DrS0FuHQ" guid="_R-wDsZh6EeWt_-DrS0FuHQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_UA6IsZh6EeWt_-DrS0FuHQ" guid="_UA6IsZh6EeWt_-DrS0FuHQ"/>
+</xmi:XMI>

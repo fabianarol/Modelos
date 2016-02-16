@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-reQHOomA-jTt6zp0MLfbLw" name="cp3,_zagMgXtUEeWfx7rfwdiI6A"
+      guid="-reQHOomA-jTt6zp0MLfbLw"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_4oTuIntUEeWfx7rfwdiI6A" guid="_4oTuIntUEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_6kZnYntUEeWfx7rfwdiI6A" guid="_6kZnYntUEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_8Ux_4ntUEeWfx7rfwdiI6A" guid="_8Ux_4ntUEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="__42jkntUEeWfx7rfwdiI6A" guid="__42jkntUEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_ES5F8ntVEeWfx7rfwdiI6A" guid="_ES5F8ntVEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_GZwEwntVEeWfx7rfwdiI6A" guid="_GZwEwntVEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_KWWdMntVEeWfx7rfwdiI6A" guid="_KWWdMntVEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_NKW14ntVEeWfx7rfwdiI6A" guid="_NKW14ntVEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_PN4z4ntVEeWfx7rfwdiI6A" guid="_PN4z4ntVEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_c6d4oXtVEeWfx7rfwdiI6A" guid="_c6d4oXtVEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_eXOxkXtVEeWfx7rfwdiI6A" guid="_eXOxkXtVEeWfx7rfwdiI6A"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_mjHN4XtVEeWfx7rfwdiI6A" guid="_mjHN4XtVEeWfx7rfwdiI6A"/>
+</xmi:XMI>

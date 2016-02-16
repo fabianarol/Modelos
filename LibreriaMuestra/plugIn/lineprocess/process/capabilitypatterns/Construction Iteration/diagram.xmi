@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML">
+  <uml:Activity xmi:id="_f89TsMk9EeWU2pkySUjZhg" name="Construction Iteration">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f8_I4Mk9EeWU2pkySUjZhg" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f8_I4ck9EeWU2pkySUjZhg"
+          key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_DftxYaK5EeWNV94iQIBaNg"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f8_I4sk9EeWU2pkySUjZhg"
+          key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdVc4Mk9EeWU2pkySUjZhg" name="Phase 1"
+        incoming="_ShxEYMoCEeWU2pkySUjZhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdWD8Mk9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWD8ck9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_SSd0AaK5EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWD8sk9EeWU2pkySUjZhg"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdWrAMk9EeWU2pkySUjZhg" name="vpPhase"
+        outgoing="_ShxEYMoCEeWU2pkySUjZhg" incoming="_gQsD0MlEEeWU2pkySUjZhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdWrAck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrAsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_VU1Y0aK5EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrA8k9EeWU2pkySUjZhg"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdWrBMk9EeWU2pkySUjZhg" name="VarPhase 21">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdWrBck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrBsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_kZylwaK5EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrB8k9EeWU2pkySUjZhg"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdWrCMk9EeWU2pkySUjZhg" name="VarPhase 22">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdWrCck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrCsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_mBx3QaK5EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrC8k9EeWU2pkySUjZhg"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdWrDMk9EeWU2pkySUjZhg" name="vpIteration"
+        outgoing="_gQsD0MlEEeWU2pkySUjZhg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdWrDck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrDsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_L0HbEaK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrD8k9EeWU2pkySUjZhg"
+            key="type" value="Iteration"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdWrEMk9EeWU2pkySUjZhg" name="VarIteration 31">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdWrEck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrEsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_OQwcoaK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrE8k9EeWU2pkySUjZhg"
+            key="type" value="Iteration"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdWrFMk9EeWU2pkySUjZhg" name="VarIteration 32">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdWrFck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrFsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_TmJM8aK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdWrF8k9EeWU2pkySUjZhg"
+            key="type" value="Iteration"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdXSEMk9EeWU2pkySUjZhg" name="vpActivity 4">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdXSEck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdXSEsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_Yotu8aK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdXSE8k9EeWU2pkySUjZhg"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdXSFMk9EeWU2pkySUjZhg" name="VarActivity 41">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdXSFck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdXSFsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_akNLQaK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdXSF8k9EeWU2pkySUjZhg"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_gdXSGMk9EeWU2pkySUjZhg" name="VarActivity 42">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdXSGck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdXSGsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_cSstYaK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdXSG8k9EeWU2pkySUjZhg"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_gdX5IMk9EeWU2pkySUjZhg" name="vpTask Descriptor 5">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdX5Ick9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5Isk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_iMUzMKK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5I8k9EeWU2pkySUjZhg"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_gdX5JMk9EeWU2pkySUjZhg" name="VarTaskDescriptor 51">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdX5Jck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5Jsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_lCiLUKK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5J8k9EeWU2pkySUjZhg"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_gdX5KMk9EeWU2pkySUjZhg" name="VarTaskDescriptor 52">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdX5Kck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5Ksk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_m4OhoKK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5K8k9EeWU2pkySUjZhg"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_gdX5LMk9EeWU2pkySUjZhg" name="vpMilestone 6">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdX5Lck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5Lsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_rjWM8KK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5L8k9EeWU2pkySUjZhg"
+            key="type" value="Milestone"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_gdX5MMk9EeWU2pkySUjZhg" name="VarMilestone 61">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdX5Mck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5Msk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_toTHQKK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5M8k9EeWU2pkySUjZhg"
+            key="type" value="Milestone"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_gdX5NMk9EeWU2pkySUjZhg" name="VarMilestone 62">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdX5Nck9EeWU2pkySUjZhg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5Nsk9EeWU2pkySUjZhg"
+            key="uri" value="uma://_DftxYKK5EeWNV94iQIBaNg#_vmLwQKK6EeWNV94iQIBaNg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdX5N8k9EeWU2pkySUjZhg"
+            key="type" value="Milestone"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gQsD0MlEEeWU2pkySUjZhg" source="_gdWrDMk9EeWU2pkySUjZhg"
+        target="_gdWrAMk9EeWU2pkySUjZhg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ShxEYMoCEeWU2pkySUjZhg" source="_gdWrAMk9EeWU2pkySUjZhg"
+        target="_gdVc4Mk9EeWU2pkySUjZhg"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_f9PnkMk9EeWU2pkySUjZhg" type="AD" element="_f89TsMk9EeWU2pkySUjZhg"
+      name="Construction Iteration" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_f9Pnkck9EeWU2pkySUjZhg"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_f9Pnksk9EeWU2pkySUjZhg"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_f9Pnk8k9EeWU2pkySUjZhg"/>
+  </notation:Diagram>
+</xmi:XMI>
