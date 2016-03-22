@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_MK8X0esVEeWqcvoXZGkk6w"
+      guid="_MK8X0esVEeWqcvoXZGkk6w">
+    <subManagers xmi:id="_NzjUYOsVEeWqcvoXZGkk6w" href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_NzjUYOsVEeWqcvoXZGkk6w"/>
+    <resourceDescriptors xmi:id="_MK8X0usVEeWqcvoXZGkk6w" id="_MK8X0OsVEeWqcvoXZGkk6w"
+        uri=""/>
+    <resourceDescriptors xmi:id="_NzjUYesVEeWqcvoXZGkk6w" id="_Ny5NEOsVEeWqcvoXZGkk6w"
+        uri="bpsom/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_MK8X0OsVEeWqcvoXZGkk6w" name="bpsom"
+      guid="_MK8X0OsVEeWqcvoXZGkk6w">
+    <methodPlugins xmi:id="_Ny5NEOsVEeWqcvoXZGkk6w" href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_Ny5NEOsVEeWqcvoXZGkk6w"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>
