@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Rc2qAfB-EeWvO5pgCiF2Uw"
+      guid="_Rc2qAfB-EeWvO5pgCiF2Uw">
+    <resourceDescriptors xmi:id="_Rc2qAvB-EeWvO5pgCiF2Uw" id="-afwHq3C1kcQsJc0UyeSoNA"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_RbmFwPB-EeWvO5pgCiF2Uw" name="prueba"
+      guid="_RbmFwPB-EeWvO5pgCiF2Uw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_S0oVQPB-EeWvO5pgCiF2Uw"
+        name="phase1" guid="_S0oVQPB-EeWvO5pgCiF2Uw">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_S0oVQfB-EeWvO5pgCiF2Uw"
+          name="phase1" guid="_S0oVQfB-EeWvO5pgCiF2Uw" presentationName="phase1" superActivities="_RbmFwfB-EeWvO5pgCiF2Uw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_UPctcPB-EeWvO5pgCiF2Uw"
+        name="phase2" guid="_UPctcPB-EeWvO5pgCiF2Uw">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_UPctcfB-EeWvO5pgCiF2Uw"
+          name="phase2" guid="_UPctcfB-EeWvO5pgCiF2Uw" presentationName="phase2" superActivities="_RbmFwfB-EeWvO5pgCiF2Uw"
+          linkToPredecessor="_Wugw4PB-EeWvO5pgCiF2Uw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Wugw4PB-EeWvO5pgCiF2Uw"
+          guid="_Wugw4PB-EeWvO5pgCiF2Uw" pred="_S0oVQfB-EeWvO5pgCiF2Uw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_VgznoPB-EeWvO5pgCiF2Uw"
+        name="phase3" guid="_VgznoPB-EeWvO5pgCiF2Uw">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_VgznofB-EeWvO5pgCiF2Uw"
+          name="phase3" guid="_VgznofB-EeWvO5pgCiF2Uw" presentationName="phase3" superActivities="_RbmFwfB-EeWvO5pgCiF2Uw"
+          linkToPredecessor="_W99iIPB-EeWvO5pgCiF2Uw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_W99iIPB-EeWvO5pgCiF2Uw"
+          guid="_W99iIPB-EeWvO5pgCiF2Uw" pred="_UPctcfB-EeWvO5pgCiF2Uw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_RbmFwfB-EeWvO5pgCiF2Uw"
+        name="prueba" guid="_RbmFwfB-EeWvO5pgCiF2Uw" presentationName="prueba" processLineName="pl"
+        breakdownElements="_S0oVQfB-EeWvO5pgCiF2Uw _UPctcfB-EeWvO5pgCiF2Uw _VgznofB-EeWvO5pgCiF2Uw">
+      <presentation xmi:id="-afwHq3C1kcQsJc0UyeSoNA" href="uma://-afwHq3C1kcQsJc0UyeSoNA#-afwHq3C1kcQsJc0UyeSoNA"/>
+      <defaultContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+      <validContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
