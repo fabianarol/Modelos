@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodConfiguration xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:epf="http://www.eclipse.org/epf"
+    epf:version="1.2.0" xmi:id="_lS9qEPCEEeWvO5pgCiF2Uw"
+    name="new_config" guid="_lS9qEPCEEeWvO5pgCiF2Uw">
+  <methodPluginSelection href="uma://_iZRgIPCEEeWvO5pgCiF2Uw#_iZRgIPCEEeWvO5pgCiF2Uw"/>
+  <methodPluginSelection href="uma://_mHOYkPCEEeWvO5pgCiF2Uw#_mHOYkPCEEeWvO5pgCiF2Uw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessLineComponent" href="uma://_mHOYkPCEEeWvO5pgCiF2Uw#_mHOYkPCEEeWvO5pgCiF2Uw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessLinesPackage" href="uma://_iZRgIPCEEeWvO5pgCiF2Uw#_iZRgMfCEEeWvO5pgCiF2Uw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_nlg7gPCEEeWvO5pgCiF2Uw#_nlg7gPCEEeWvO5pgCiF2Uw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:CoreProcessPackage" href="uma://_mHOYkPCEEeWvO5pgCiF2Uw#_mwbtofCEEeWvO5pgCiF2Uw"/>
+</org.eclipse.epf.uma:MethodConfiguration>
