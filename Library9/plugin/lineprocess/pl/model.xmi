@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2S_mUAHMEeaxj5Us7wwPEg"
+      guid="_2S_mUAHMEeaxj5Us7wwPEg">
+    <subManagers xmi:id="_D3lzwQHNEeaxj5Us7wwPEg" href="uma://_DpH58AHNEeaxj5Us7wwPEg#_D3lzwQHNEeaxj5Us7wwPEg"/>
+    <resourceDescriptors xmi:id="_2T8okQHMEeaxj5Us7wwPEg" id="-be1F-lT7US7RI-gC747p1g"
+        uri="activities/pl.xmi"/>
+    <resourceDescriptors xmi:id="_D0utAQHNEeaxj5Us7wwPEg" id="_DpH58AHNEeaxj5Us7wwPEg"
+        uri="deliveryprocesses/dp/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessLineComponent xmi:id="_2S11UAHMEeaxj5Us7wwPEg" name="pl"
+      guid="_2S11UAHMEeaxj5Us7wwPEg">
+    <childPackages xsi:type="org.eclipse.epf.uma:VariantsPackage" xmi:id="_2XUssAHMEeaxj5Us7wwPEg"
+        name="VariantsPackage" guid="_2XUssAHMEeaxj5Us7wwPEg"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:TailoredProcessesPackage" xmi:id="_2YH98AHMEeaxj5Us7wwPEg"
+        name="TailoredPackage" guid="_2YH98AHMEeaxj5Us7wwPEg"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:CoreProcessPackage" xmi:id="_2oLzMAHMEeaxj5Us7wwPEg"
+        name="vCapabilityPatterns" guid="_2oLzMAHMEeaxj5Us7wwPEg"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:CoreProcessPackage" xmi:id="_2oLzMQHMEeaxj5Us7wwPEg"
+        name="vDeliveryProcesses" guid="_2oLzMQHMEeaxj5Us7wwPEg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_DpH58AHNEeaxj5Us7wwPEg"
+          href="uma://_DpH58AHNEeaxj5Us7wwPEg#_DpH58AHNEeaxj5Us7wwPEg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:VarPointsPackage" xmi:id="_2ofVMAHMEeaxj5Us7wwPEg"
+        name="VarPointsPackage" guid="_2ofVMAHMEeaxj5Us7wwPEg"/>
+    <processLine xsi:type="org.eclipse.epf.uma:LineProcess" xmi:id="_2S11UQHMEeaxj5Us7wwPEg"
+        name="pl" guid="_2S11UQHMEeaxj5Us7wwPEg" presentationName="pl">
+      <presentation xmi:id="-be1F-lT7US7RI-gC747p1g" href="uma://-be1F-lT7US7RI-gC747p1g#-be1F-lT7US7RI-gC747p1g"/>
+      <defaultContext href="uma://_bNSkUQHMEeaxj5Us7wwPEg#_jjNGYAHMEeaxj5Us7wwPEg"/>
+      <validContext href="uma://_bNSkUQHMEeaxj5Us7wwPEg#_jjNGYAHMEeaxj5Us7wwPEg"/>
+    </processLine>
+  </org.eclipse.epf.uma:ProcessLineComponent>
+</xmi:XMI>

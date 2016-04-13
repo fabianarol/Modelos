@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-0gn-2YQCs5rM3s7EJkhPkw"
+      name="dp,_DpH58QHNEeaxj5Us7wwPEg" guid="-0gn-2YQCs5rM3s7EJkhPkw"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_IWQXcgHNEeaxj5Us7wwPEg" guid="_IWQXcgHNEeaxj5Us7wwPEg"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_Jsg_wgHNEeaxj5Us7wwPEg" guid="_Jsg_wgHNEeaxj5Us7wwPEg"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_LGo0YAHNEeaxj5Us7wwPEg" guid="_LGo0YAHNEeaxj5Us7wwPEg"/>
+</xmi:XMI>
