@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML">
+  <uml:Activity xmi:id="_hUkPIAHNEeaxj5Us7wwPEg" name="dp">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hUkPIQHNEeaxj5Us7wwPEg" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hUkPIgHNEeaxj5Us7wwPEg"
+          key="uri" value="uma://_DpH58AHNEeaxj5Us7wwPEg#_DpH58QHNEeaxj5Us7wwPEg"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hUkPIwHNEeaxj5Us7wwPEg"
+          key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_ht4HAAHNEeaxj5Us7wwPEg" name="act1"
+        outgoing="_huB4AQHNEeaxj5Us7wwPEg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ht4HAQHNEeaxj5Us7wwPEg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HAgHNEeaxj5Us7wwPEg"
+            key="uri" value="uma://_DpH58AHNEeaxj5Us7wwPEg#_G9t3MQHNEeaxj5Us7wwPEg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HAwHNEeaxj5Us7wwPEg"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_ht4HBAHNEeaxj5Us7wwPEg" name="vpActivity"
+        outgoing="_huB4AAHNEeaxj5Us7wwPEg" incoming="_huB4AQHNEeaxj5Us7wwPEg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ht4HBQHNEeaxj5Us7wwPEg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HBgHNEeaxj5Us7wwPEg"
+            key="uri" value="uma://_DpH58AHNEeaxj5Us7wwPEg#_IWQXcQHNEeaxj5Us7wwPEg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HBwHNEeaxj5Us7wwPEg"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_ht4HCAHNEeaxj5Us7wwPEg" name="VarActivity1">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ht4HCQHNEeaxj5Us7wwPEg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HCgHNEeaxj5Us7wwPEg"
+            key="uri" value="uma://_DpH58AHNEeaxj5Us7wwPEg#_Jsg_wQHNEeaxj5Us7wwPEg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HCwHNEeaxj5Us7wwPEg"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_ht4HDAHNEeaxj5Us7wwPEg" name="VarActivity2">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ht4HDQHNEeaxj5Us7wwPEg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HDgHNEeaxj5Us7wwPEg"
+            key="uri" value="uma://_DpH58AHNEeaxj5Us7wwPEg#_LGoNUQHNEeaxj5Us7wwPEg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HDwHNEeaxj5Us7wwPEg"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_ht4HEAHNEeaxj5Us7wwPEg" name="act2"
+        incoming="_huB4AAHNEeaxj5Us7wwPEg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ht4HEQHNEeaxj5Us7wwPEg"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HEgHNEeaxj5Us7wwPEg"
+            key="uri" value="uma://_DpH58AHNEeaxj5Us7wwPEg#_Qxtg0QHNEeaxj5Us7wwPEg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ht4HEwHNEeaxj5Us7wwPEg"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_huB4AAHNEeaxj5Us7wwPEg" source="_ht4HBAHNEeaxj5Us7wwPEg"
+        target="_ht4HEAHNEeaxj5Us7wwPEg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_huB4AQHNEeaxj5Us7wwPEg" source="_ht4HAAHNEeaxj5Us7wwPEg"
+        target="_ht4HBAHNEeaxj5Us7wwPEg"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_hU3xIAHNEeaxj5Us7wwPEg" type="AD" element="_hUkPIAHNEeaxj5Us7wwPEg"
+      name="dp" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_hU3xIQHNEeaxj5Us7wwPEg"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_hU3xIgHNEeaxj5Us7wwPEg"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_hU3xIwHNEeaxj5Us7wwPEg"/>
+  </notation:Diagram>
+</xmi:XMI>
