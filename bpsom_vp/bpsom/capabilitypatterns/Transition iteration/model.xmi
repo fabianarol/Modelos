@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_f6riwOseEeWAy8cP-CDtOg"
+      guid="_f6riwOseEeWAy8cP-CDtOg">
+    <resourceDescriptors xmi:id="_f6riweseEeWAy8cP-CDtOg" id="-TdsXir0SKYPXI3t_OcUxlg"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_f3SQhuseEeWAy8cP-CDtOg" name="Transition iteration"
+      guid="_f3SQhuseEeWAy8cP-CDtOg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vpZ4oBfEEeaI4bQgvtYpbg"
+        name="sw_deployment" guid="_vpZ4oBfEEeaI4bQgvtYpbg" presentationName="Software deployment"
+        superActivities="_f3S3kOseEeWAy8cP-CDtOg" additionallyPerformedBy="_vpbGwhfEEeaI4bQgvtYpbg"
+        mandatoryInput="_vpcU4BfEEeaI4bQgvtYpbg _vpc78BfEEeaI4bQgvtYpbg" optionalInput="_vpc78RfEEeaI4bQgvtYpbg"
+        output="_vpc78hfEEeaI4bQgvtYpbg" performedPrimarilyBy="_vpbGwBfEEeaI4bQgvtYpbg">
+      <Task href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_x2n3wOvKEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_vpbGwBfEEeaI4bQgvtYpbg"
+        name="developer" guid="_vpbGwBfEEeaI4bQgvtYpbg" presentationName="Developer"
+        isPlanned="false" superActivities="_f3S3kOseEeWAy8cP-CDtOg" responsibleFor="_vpc78RfEEeaI4bQgvtYpbg">
+      <Role href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#__9XMIOvOEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_vpbGwhfEEeaI4bQgvtYpbg"
+        name="architect" guid="_vpbGwhfEEeaI4bQgvtYpbg" presentationName="Architect"
+        isPlanned="false" superActivities="_f3S3kOseEeWAy8cP-CDtOg">
+      <Role href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_Ze2UQOvNEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vpcU4BfEEeaI4bQgvtYpbg"
+        name="service_implemented" guid="_vpcU4BfEEeaI4bQgvtYpbg" presentationName="Service Implemented"
+        isPlanned="false" superActivities="_f3S3kOseEeWAy8cP-CDtOg">
+      <WorkProduct xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_LCOnwOvPEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vpc78BfEEeaI4bQgvtYpbg"
+        name="software_architecture_document" guid="_vpc78BfEEeaI4bQgvtYpbg" presentationName="Software Architecture document"
+        isPlanned="false" superActivities="_f3S3kOseEeWAy8cP-CDtOg">
+      <WorkProduct xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_eW89kOvLEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vpc78RfEEeaI4bQgvtYpbg"
+        name="implementation_document" guid="_vpc78RfEEeaI4bQgvtYpbg" presentationName="Implementation document"
+        isPlanned="false" superActivities="_f3S3kOseEeWAy8cP-CDtOg">
+      <WorkProduct xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_FeRz0OvLEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vpc78hfEEeaI4bQgvtYpbg"
+        name="service_installed" guid="_vpc78hfEEeaI4bQgvtYpbg" presentationName="Service installed"
+        isPlanned="false" superActivities="_f3S3kOseEeWAy8cP-CDtOg">
+      <WorkProduct xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_Xn65wOvLEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_f3S3kOseEeWAy8cP-CDtOg"
+        name="Transition iteration" guid="_f3S3kOseEeWAy8cP-CDtOg" presentationName="Transition iteration"
+        processLineName="process" breakdownElements="_vpZ4oBfEEeaI4bQgvtYpbg _vpbGwBfEEeaI4bQgvtYpbg _vpbGwhfEEeaI4bQgvtYpbg _vpcU4BfEEeaI4bQgvtYpbg _vpc78BfEEeaI4bQgvtYpbg _vpc78RfEEeaI4bQgvtYpbg _vpc78hfEEeaI4bQgvtYpbg">
+      <presentation xmi:id="-TdsXir0SKYPXI3t_OcUxlg" href="uma://-TdsXir0SKYPXI3t_OcUxlg#-TdsXir0SKYPXI3t_OcUxlg"/>
+      <defaultContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+      <validContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

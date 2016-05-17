@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-43ZCo05h91sNXMDWq9YW0g"
+      name="bpsom,_6DQc4esYEeWqcvoXZGkk6w" guid="-43ZCo05h91sNXMDWq9YW0g"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_pHWpghcXEeabuqEXyaLoow" guid="_pHWpghcXEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_rkXeghcXEeabuqEXyaLoow" guid="_rkXeghcXEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_vvxH8RcXEeabuqEXyaLoow" guid="_vvxH8RcXEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_kI_N4RceEeabuqEXyaLoow" guid="_kI_N4RceEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_me1D4RceEeabuqEXyaLoow" guid="_me1D4RceEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_oQ1NARceEeabuqEXyaLoow" guid="_oQ1NARceEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_zrzbghceEeabuqEXyaLoow" guid="_zrzbghceEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_3sfCshceEeabuqEXyaLoow" guid="_3sfCshceEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_5GEr0hceEeabuqEXyaLoow" guid="_5GEr0hceEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_NRZVohcfEeabuqEXyaLoow" guid="_NRZVohcfEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_PtaFEhcfEeabuqEXyaLoow" guid="_PtaFEhcfEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="_RXlu8hcfEeabuqEXyaLoow" guid="_RXlu8hcfEeabuqEXyaLoow"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_CkfwABfNEeaI4bQgvtYpbg" guid="_CkfwABfNEeaI4bQgvtYpbg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_NQ0IwRfNEeaI4bQgvtYpbg" guid="_NQ0IwRfNEeaI4bQgvtYpbg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_RKz5IRfNEeaI4bQgvtYpbg" guid="_RKz5IRfNEeaI4bQgvtYpbg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_i-qVQRfNEeaI4bQgvtYpbg" guid="_i-qVQRfNEeaI4bQgvtYpbg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_lNpVURfNEeaI4bQgvtYpbg" guid="_lNpVURfNEeaI4bQgvtYpbg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="_nZVw0RfNEeaI4bQgvtYpbg" guid="_nZVw0RfNEeaI4bQgvtYpbg"/>
+</xmi:XMI>
