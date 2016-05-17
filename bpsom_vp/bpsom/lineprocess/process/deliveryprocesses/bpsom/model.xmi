@@ -214,7 +214,7 @@
         name="vpActivity" guid="_NRZVoBcfEeabuqEXyaLoow">
       <processElements xsi:type="org.eclipse.epf.uma:vpActivity" xmi:id="_NRZVoRcfEeabuqEXyaLoow"
           name="vpActivity" guid="_NRZVoRcfEeabuqEXyaLoow" presentationName="vpActivity"
-          superActivities="_wjG8QBfOEeaI4bQgvtYpbg" vpName="vpActivity" vId="dfe4ed1c-d496-41d7-a8e6-43c6ce68bbeb"
+          superActivities="_wjG8QRfOEeaI4bQgvtYpbg" vpName="vpActivity" vId="dfe4ed1c-d496-41d7-a8e6-43c6ce68bbeb"
           description="" min="1" max="-1">
         <presentation xmi:id="_NRZVohcfEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_NRZVohcfEeabuqEXyaLoow"/>
         <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_jUVBUBcfEeabuqEXyaLoow"
