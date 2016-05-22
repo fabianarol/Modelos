@@ -82,6 +82,22 @@
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_kmBfMBfOEeaI4bQgvtYpbg"
           guid="_kmBfMBfOEeaI4bQgvtYpbg" pred="__aC7YesYEeWqcvoXZGkk6w"/>
     </childPackages>
+	 <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zrzbgBceEeabuqEXyaLoow"
+        name="VPPhase" guid="_zrzbgBceEeabuqEXyaLoow">
+      <processElements xsi:type="org.eclipse.epf.uma:vpPhase" xmi:id="_zrzbgRceEeabuqEXyaLoow"
+          name="VPPhase" guid="_zrzbgRceEeabuqEXyaLoow" presentationName="VPPhase"
+          superActivities="_6DQc4esYEeWqcvoXZGkk6w" linkToPredecessor="_hJZ8cBfQEeaI4bQgvtYpbg"
+          vpName="VPPhase" vId="22de4f59-702a-4dcd-8729-33177c2e147d" description=""
+          max="-1">
+        <presentation xmi:id="_zrzbghceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_zrzbghceEeabuqEXyaLoow"/>
+        <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_-AnTMhceEeabuqEXyaLoow"
+            isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_3sfCsRceEeabuqEXyaLoow"/>
+        <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_-AnTMxceEeabuqEXyaLoow"
+            isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hJZ8cBfQEeaI4bQgvtYpbg"
+          guid="_hJZ8cBfQEeaI4bQgvtYpbg" pred="_COyT4OsZEeWqcvoXZGkk6w"/>
+    </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_COxs0OsZEeWqcvoXZGkk6w"
         name="Transition" guid="_COxs0OsZEeWqcvoXZGkk6w">
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ta3SkBfGEeaI4bQgvtYpbg"
@@ -161,22 +177,6 @@
         <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_ROMfMRcbEeabuqEXyaLoow"
             isInclusive="true" client="_pHWpgRcXEeabuqEXyaLoow" supplier="_vvxH8BcXEeabuqEXyaLoow"/>
       </processElements>
-    </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zrzbgBceEeabuqEXyaLoow"
-        name="VPPhase" guid="_zrzbgBceEeabuqEXyaLoow">
-      <processElements xsi:type="org.eclipse.epf.uma:vpPhase" xmi:id="_zrzbgRceEeabuqEXyaLoow"
-          name="VPPhase" guid="_zrzbgRceEeabuqEXyaLoow" presentationName="VPPhase"
-          superActivities="_6DQc4esYEeWqcvoXZGkk6w" linkToPredecessor="_hJZ8cBfQEeaI4bQgvtYpbg"
-          vpName="VPPhase" vId="22de4f59-702a-4dcd-8729-33177c2e147d" description=""
-          max="-1">
-        <presentation xmi:id="_zrzbghceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_zrzbghceEeabuqEXyaLoow"/>
-        <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_-AnTMhceEeabuqEXyaLoow"
-            isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_3sfCsRceEeabuqEXyaLoow"/>
-        <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_-AnTMxceEeabuqEXyaLoow"
-            isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
-      </processElements>
-      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hJZ8cBfQEeaI4bQgvtYpbg"
-          guid="_hJZ8cBfQEeaI4bQgvtYpbg" pred="_COyT4OsZEeWqcvoXZGkk6w"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_3sfCsBceEeabuqEXyaLoow"
         name="VarPhase1" guid="_3sfCsBceEeabuqEXyaLoow">
