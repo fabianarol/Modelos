@@ -118,7 +118,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_pHWpgBcXEeabuqEXyaLoow"
         name="VpIter" guid="_pHWpgBcXEeabuqEXyaLoow">
       <processElements xsi:type="org.eclipse.epf.uma:vpIteration" xmi:id="_pHWpgRcXEeabuqEXyaLoow"
-          name="VpIter" guid="_pHWpgRcXEeabuqEXyaLoow" presentationName="VpIter" superActivities="_6DQc4esYEeWqcvoXZGkk6w _5GEr0RceEeabuqEXyaLoow"
+          name="VpIter" guid="_pHWpgRcXEeabuqEXyaLoow" presentationName="VpIter" superActivities="_5GEr0RceEeabuqEXyaLoow"
           isRepeatable="true" vpName="VpIter" vId="e56096b4-2569-4360-a6ba-acc71d11ae52"
           description="" max="-1">
         <presentation xmi:id="_pHWpghcXEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_pHWpghcXEeabuqEXyaLoow"/>
