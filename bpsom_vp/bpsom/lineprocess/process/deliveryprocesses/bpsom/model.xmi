@@ -247,6 +247,9 @@
         <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_hnlLoRcfEeabuqEXyaLoow"
             isInclusive="true" client="_NRZVoRcfEeabuqEXyaLoow" supplier="_RXlu8RcfEeabuqEXyaLoow"/>
       </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Vs6JYBcfEeabuqEXyaLoow"
+          name="VarTask2" guid="_Vs6JYBcfEeabuqEXyaLoow" presentationName="TaskVar2"
+          superActivities="_RXlu8RcfEeabuqEXyaLoow"/>
     </childPackages>
     <processElements xsi:type="org.eclipse.epf.uma:vpRoleDescriptor" xmi:id="_Awpz0BfNEeaI4bQgvtYpbg"
         name="vpRole" guid="_Awpz0BfNEeaI4bQgvtYpbg" presentationName="vpRole" superActivities="_6DQc4esYEeWqcvoXZGkk6w"
