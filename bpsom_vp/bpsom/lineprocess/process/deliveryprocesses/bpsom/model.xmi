@@ -13,6 +13,12 @@
         uri="content.xmi"/>
     <resourceDescriptors xmi:id="_RO6Q4BcbEeabuqEXyaLoow" id="_vvxH8RcXEeabuqEXyaLoow"
         uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_reFMIBceEeabuqEXyaLoow" id="_kI_N4RceEeabuqEXyaLoow"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_reVDwBceEeabuqEXyaLoow" id="_me1D4RceEeabuqEXyaLoow"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_reZVMBceEeabuqEXyaLoow" id="_oQ1NARceEeabuqEXyaLoow"
+        uri="content.xmi"/>
     <resourceDescriptors xmi:id="_6nZ7sBceEeabuqEXyaLoow" id="_zrzbghceEeabuqEXyaLoow"
         uri="content.xmi"/>
     <resourceDescriptors xmi:id="_6ngCUBceEeabuqEXyaLoow" id="_3sfCshceEeabuqEXyaLoow"
@@ -92,7 +98,7 @@
           superActivities="_6DQc4esYEeWqcvoXZGkk6w" linkToPredecessor="_k3xWgBfOEeaI4bQgvtYpbg"
           breakdownElements="_ta3SkRfGEeaI4bQgvtYpbg"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_k3xWgBfOEeaI4bQgvtYpbg"
-          guid="_k3xWgBfOEeaI4bQgvtYpbg" pred="_AulFYesZEeWqcvoXZGkk6w"/>
+          guid="_k3xWgBfOEeaI4bQgvtYpbg" pred="_zrzbgBceEeabuqEXyaLoow"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_93dHQOsYEeWqcvoXZGkk6w"
         name="Inception" guid="_93dHQOsYEeWqcvoXZGkk6w">
@@ -112,7 +118,7 @@
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_pHWpgBcXEeabuqEXyaLoow"
         name="VpIter" guid="_pHWpgBcXEeabuqEXyaLoow">
       <processElements xsi:type="org.eclipse.epf.uma:vpIteration" xmi:id="_pHWpgRcXEeabuqEXyaLoow"
-          name="VpIter" guid="_pHWpgRcXEeabuqEXyaLoow" presentationName="VpIter" superActivities="_6DQc4esYEeWqcvoXZGkk6w"
+          name="VpIter" guid="_pHWpgRcXEeabuqEXyaLoow" presentationName="VpIter" superActivities="_5GEr0RceEeabuqEXyaLoow"
           isRepeatable="true" vpName="VpIter" vId="e56096b4-2569-4360-a6ba-acc71d11ae52"
           description="" max="-1">
         <presentation xmi:id="_pHWpghcXEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_pHWpghcXEeabuqEXyaLoow"/>
@@ -156,7 +162,7 @@
             isInclusive="true" client="_pHWpgRcXEeabuqEXyaLoow" supplier="_vvxH8BcXEeabuqEXyaLoow"/>
       </processElements>
     </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zrzbgBceEeabuqEXyaLoow"
+	<childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zrzbgBceEeabuqEXyaLoow"
         name="VPPhase" guid="_zrzbgBceEeabuqEXyaLoow">
       <processElements xsi:type="org.eclipse.epf.uma:vpPhase" xmi:id="_zrzbgRceEeabuqEXyaLoow"
           name="VPPhase" guid="_zrzbgRceEeabuqEXyaLoow" presentationName="VPPhase"
@@ -170,7 +176,7 @@
             isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hJZ8cBfQEeaI4bQgvtYpbg"
-          guid="_hJZ8cBfQEeaI4bQgvtYpbg" pred="_COyT4OsZEeWqcvoXZGkk6w"/>
+          guid="_hJZ8cBfQEeaI4bQgvtYpbg" pred="_AulFYesZEeWqcvoXZGkk6w"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_3sfCsBceEeabuqEXyaLoow"
         name="VarPhase1" guid="_3sfCsBceEeabuqEXyaLoow">
@@ -208,7 +214,7 @@
         name="vpActivity" guid="_NRZVoBcfEeabuqEXyaLoow">
       <processElements xsi:type="org.eclipse.epf.uma:vpActivity" xmi:id="_NRZVoRcfEeabuqEXyaLoow"
           name="vpActivity" guid="_NRZVoRcfEeabuqEXyaLoow" presentationName="vpActivity"
-          superActivities="_6DQc4esYEeWqcvoXZGkk6w" vpName="vpActivity" vId="dfe4ed1c-d496-41d7-a8e6-43c6ce68bbeb"
+          superActivities="_wjG8QRfOEeaI4bQgvtYpbg" vpName="vpActivity" vId="dfe4ed1c-d496-41d7-a8e6-43c6ce68bbeb"
           description="" min="1" max="-1">
         <presentation xmi:id="_NRZVohcfEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_NRZVohcfEeabuqEXyaLoow"/>
         <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_jUVBUBcfEeabuqEXyaLoow"
@@ -242,7 +248,7 @@
             isInclusive="true" client="_NRZVoRcfEeabuqEXyaLoow" supplier="_RXlu8RcfEeabuqEXyaLoow"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Vs6JYBcfEeabuqEXyaLoow"
-          name="VarTask2" guid="_Vs6JYBcfEeabuqEXyaLoow" presentationName="TaskVar2"
+          name="TaskVar2" guid="_Vs6JYBcfEeabuqEXyaLoow" presentationName="TaskVar2"
           superActivities="_RXlu8RcfEeabuqEXyaLoow"/>
     </childPackages>
     <processElements xsi:type="org.eclipse.epf.uma:vpRoleDescriptor" xmi:id="_Awpz0BfNEeaI4bQgvtYpbg"
@@ -296,7 +302,7 @@
     </processElements>
     <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_6DQc4esYEeWqcvoXZGkk6w"
         name="bpsom" guid="_6DQc4esYEeWqcvoXZGkk6w" presentationName="bpsom" processLineName="process"
-        breakdownElements="_93duUOsYEeWqcvoXZGkk6w __aC7YesYEeWqcvoXZGkk6w _AulFYesZEeWqcvoXZGkk6w _COyT4OsZEeWqcvoXZGkk6w _zrzbgRceEeabuqEXyaLoow _3sfCsRceEeabuqEXyaLoow _5GEr0RceEeabuqEXyaLoow _pHWpgRcXEeabuqEXyaLoow _rkXegRcXEeabuqEXyaLoow _vvxH8BcXEeabuqEXyaLoow _NRZVoRcfEeabuqEXyaLoow _PtaFERcfEeabuqEXyaLoow _RXlu8RcfEeabuqEXyaLoow _Awpz0BfNEeaI4bQgvtYpbg _NQ0IwBfNEeaI4bQgvtYpbg _RKz5IBfNEeaI4bQgvtYpbg _i-qVQBfNEeaI4bQgvtYpbg _lNpVUBfNEeaI4bQgvtYpbg _nZVw0BfNEeaI4bQgvtYpbg">
+        breakdownElements="_93duUOsYEeWqcvoXZGkk6w __aC7YesYEeWqcvoXZGkk6w _AulFYesZEeWqcvoXZGkk6w _COyT4OsZEeWqcvoXZGkk6w _zrzbgRceEeabuqEXyaLoow _3sfCsRceEeabuqEXyaLoow _5GEr0RceEeabuqEXyaLoow _pHWpgRcXEeabuqEXyaLoow _rkXegRcXEeabuqEXyaLoow _vvxH8BcXEeabuqEXyaLoow _kI_N4BceEeabuqEXyaLoow _me1D4BceEeabuqEXyaLoow _oQ1NABceEeabuqEXyaLoow _NRZVoRcfEeabuqEXyaLoow _PtaFERcfEeabuqEXyaLoow _RXlu8RcfEeabuqEXyaLoow _Awpz0BfNEeaI4bQgvtYpbg _NQ0IwBfNEeaI4bQgvtYpbg _RKz5IBfNEeaI4bQgvtYpbg _i-qVQBfNEeaI4bQgvtYpbg _lNpVUBfNEeaI4bQgvtYpbg _nZVw0BfNEeaI4bQgvtYpbg">
       <ownedRules xmi:id="_UnF-UBfDEeaI4bQgvtYpbg" guid="_UnF-UBfDEeaI4bQgvtYpbg"/>
       <presentation xmi:id="-43ZCo05h91sNXMDWq9YW0g" href="uma://-43ZCo05h91sNXMDWq9YW0g#-43ZCo05h91sNXMDWq9YW0g"/>
       <includesPatterns href="uma://_f3SQgOseEeWAy8cP-CDtOg#_f3SQg-seEeWAy8cP-CDtOg"/>
