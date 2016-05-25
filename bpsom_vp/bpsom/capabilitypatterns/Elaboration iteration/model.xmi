@@ -82,7 +82,7 @@
     </processElements>
 	<processElements xsi:type="org.eclipse.epf.uma:vpTaskDescriptor" xmi:id="_kI_N4BceEeabuqEXyaLoow"
         name="VPTask" guid="_kI_N4BceEeabuqEXyaLoow" presentationName="VPTask"
-        vpName="VPTask" vId="bb710558-a9ba-4700-9200-325f95434613" description=""
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg" vpName="VPTask" vId="bb710558-a9ba-4700-9200-325f95434613" description=""
         max="-1">
       <presentation xmi:id="_kI_N4RceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_kI_N4RceEeabuqEXyaLoow"/>
       <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_tt89AhceEeabuqEXyaLoow"
