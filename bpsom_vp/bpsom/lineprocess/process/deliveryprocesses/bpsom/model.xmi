@@ -96,7 +96,7 @@
             isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hJZ8cBfQEeaI4bQgvtYpbg"
-          guid="_hJZ8cBfQEeaI4bQgvtYpbg" pred="_COyT4OsZEeWqcvoXZGkk6w"/>
+          guid="_hJZ8cBfQEeaI4bQgvtYpbg" pred="_AulFYesZEeWqcvoXZGkk6w"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_COxs0OsZEeWqcvoXZGkk6w"
         name="Transition" guid="_COxs0OsZEeWqcvoXZGkk6w">
@@ -114,7 +114,7 @@
           superActivities="_6DQc4esYEeWqcvoXZGkk6w" linkToPredecessor="_k3xWgBfOEeaI4bQgvtYpbg"
           breakdownElements="_ta3SkRfGEeaI4bQgvtYpbg"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_k3xWgBfOEeaI4bQgvtYpbg"
-          guid="_k3xWgBfOEeaI4bQgvtYpbg" pred="_AulFYesZEeWqcvoXZGkk6w"/>
+          guid="_k3xWgBfOEeaI4bQgvtYpbg" pred="_zrzbgRceEeabuqEXyaLoow"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_93dHQOsYEeWqcvoXZGkk6w"
         name="Inception" guid="_93dHQOsYEeWqcvoXZGkk6w">
