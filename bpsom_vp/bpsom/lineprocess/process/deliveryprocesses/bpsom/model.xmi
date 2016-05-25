@@ -46,6 +46,21 @@
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_6DQc4OsYEeWqcvoXZGkk6w" name="bpsom"
       guid="_6DQc4OsYEeWqcvoXZGkk6w">
+	 <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_93dHQOsYEeWqcvoXZGkk6w"
+        name="Inception" guid="_93dHQOsYEeWqcvoXZGkk6w">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mJ0t4BfGEeaI4bQgvtYpbg"
+          name="Inception iteration" guid="_mJ0t4BfGEeaI4bQgvtYpbg">
+        <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_mJ0t4RfGEeaI4bQgvtYpbg"
+            name="Inception iteration" guid="_mJ0t4RfGEeaI4bQgvtYpbg" superActivities="_93duUOsYEeWqcvoXZGkk6w"
+            variabilityType="extends">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern"
+              href="uma://_f3SQgOseEeWAy8cP-CDtOg#_f3SQg-seEeWAy8cP-CDtOg"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_93duUOsYEeWqcvoXZGkk6w"
+          name="Inception" guid="_93duUOsYEeWqcvoXZGkk6w" presentationName="Inception"
+          superActivities="_6DQc4esYEeWqcvoXZGkk6w" breakdownElements="_mJ0t4RfGEeaI4bQgvtYpbg"/>
+    </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__aC7YOsYEeWqcvoXZGkk6w"
         name="Elaboration" guid="__aC7YOsYEeWqcvoXZGkk6w">
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ouylABfGEeaI4bQgvtYpbg"
@@ -115,21 +130,6 @@
           breakdownElements="_ta3SkRfGEeaI4bQgvtYpbg"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_k3xWgBfOEeaI4bQgvtYpbg"
           guid="_k3xWgBfOEeaI4bQgvtYpbg" pred="_zrzbgRceEeabuqEXyaLoow"/>
-    </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_93dHQOsYEeWqcvoXZGkk6w"
-        name="Inception" guid="_93dHQOsYEeWqcvoXZGkk6w">
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mJ0t4BfGEeaI4bQgvtYpbg"
-          name="Inception iteration" guid="_mJ0t4BfGEeaI4bQgvtYpbg">
-        <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_mJ0t4RfGEeaI4bQgvtYpbg"
-            name="Inception iteration" guid="_mJ0t4RfGEeaI4bQgvtYpbg" superActivities="_93duUOsYEeWqcvoXZGkk6w"
-            variabilityType="extends">
-          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern"
-              href="uma://_f3SQgOseEeWAy8cP-CDtOg#_f3SQg-seEeWAy8cP-CDtOg"/>
-        </processElements>
-      </childPackages>
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_93duUOsYEeWqcvoXZGkk6w"
-          name="Inception" guid="_93duUOsYEeWqcvoXZGkk6w" presentationName="Inception"
-          superActivities="_6DQc4esYEeWqcvoXZGkk6w" breakdownElements="_mJ0t4RfGEeaI4bQgvtYpbg"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_pHWpgBcXEeabuqEXyaLoow"
         name="VpIter" guid="_pHWpgBcXEeabuqEXyaLoow">
