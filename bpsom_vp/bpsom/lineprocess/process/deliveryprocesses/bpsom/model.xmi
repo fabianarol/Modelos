@@ -13,12 +13,6 @@
         uri="content.xmi"/>
     <resourceDescriptors xmi:id="_RO6Q4BcbEeabuqEXyaLoow" id="_vvxH8RcXEeabuqEXyaLoow"
         uri="content.xmi"/>
-    <resourceDescriptors xmi:id="_reFMIBceEeabuqEXyaLoow" id="_kI_N4RceEeabuqEXyaLoow"
-        uri="content.xmi"/>
-    <resourceDescriptors xmi:id="_reVDwBceEeabuqEXyaLoow" id="_me1D4RceEeabuqEXyaLoow"
-        uri="content.xmi"/>
-    <resourceDescriptors xmi:id="_reZVMBceEeabuqEXyaLoow" id="_oQ1NARceEeabuqEXyaLoow"
-        uri="content.xmi"/>
     <resourceDescriptors xmi:id="_6nZ7sBceEeabuqEXyaLoow" id="_zrzbghceEeabuqEXyaLoow"
         uri="content.xmi"/>
     <resourceDescriptors xmi:id="_6ngCUBceEeabuqEXyaLoow" id="_3sfCshceEeabuqEXyaLoow"
@@ -302,7 +296,7 @@
     </processElements>
     <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_6DQc4esYEeWqcvoXZGkk6w"
         name="bpsom" guid="_6DQc4esYEeWqcvoXZGkk6w" presentationName="bpsom" processLineName="process"
-        breakdownElements="_93duUOsYEeWqcvoXZGkk6w __aC7YesYEeWqcvoXZGkk6w _AulFYesZEeWqcvoXZGkk6w _COyT4OsZEeWqcvoXZGkk6w _zrzbgRceEeabuqEXyaLoow _3sfCsRceEeabuqEXyaLoow _5GEr0RceEeabuqEXyaLoow _pHWpgRcXEeabuqEXyaLoow _rkXegRcXEeabuqEXyaLoow _vvxH8BcXEeabuqEXyaLoow _kI_N4BceEeabuqEXyaLoow _me1D4BceEeabuqEXyaLoow _oQ1NABceEeabuqEXyaLoow _NRZVoRcfEeabuqEXyaLoow _PtaFERcfEeabuqEXyaLoow _RXlu8RcfEeabuqEXyaLoow _Awpz0BfNEeaI4bQgvtYpbg _NQ0IwBfNEeaI4bQgvtYpbg _RKz5IBfNEeaI4bQgvtYpbg _i-qVQBfNEeaI4bQgvtYpbg _lNpVUBfNEeaI4bQgvtYpbg _nZVw0BfNEeaI4bQgvtYpbg">
+        breakdownElements="_93duUOsYEeWqcvoXZGkk6w __aC7YesYEeWqcvoXZGkk6w _AulFYesZEeWqcvoXZGkk6w _COyT4OsZEeWqcvoXZGkk6w _zrzbgRceEeabuqEXyaLoow _3sfCsRceEeabuqEXyaLoow _5GEr0RceEeabuqEXyaLoow _pHWpgRcXEeabuqEXyaLoow _rkXegRcXEeabuqEXyaLoow _vvxH8BcXEeabuqEXyaLoow _NRZVoRcfEeabuqEXyaLoow _PtaFERcfEeabuqEXyaLoow _RXlu8RcfEeabuqEXyaLoow _Awpz0BfNEeaI4bQgvtYpbg _NQ0IwBfNEeaI4bQgvtYpbg _RKz5IBfNEeaI4bQgvtYpbg _i-qVQBfNEeaI4bQgvtYpbg _lNpVUBfNEeaI4bQgvtYpbg _nZVw0BfNEeaI4bQgvtYpbg">
       <ownedRules xmi:id="_UnF-UBfDEeaI4bQgvtYpbg" guid="_UnF-UBfDEeaI4bQgvtYpbg"/>
       <presentation xmi:id="-43ZCo05h91sNXMDWq9YW0g" href="uma://-43ZCo05h91sNXMDWq9YW0g#-43ZCo05h91sNXMDWq9YW0g"/>
       <includesPatterns href="uma://_f3SQgOseEeWAy8cP-CDtOg#_f3SQg-seEeWAy8cP-CDtOg"/>
