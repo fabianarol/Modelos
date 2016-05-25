@@ -97,7 +97,7 @@
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_kmBfMBfOEeaI4bQgvtYpbg"
           guid="_kmBfMBfOEeaI4bQgvtYpbg" pred="__aC7YesYEeWqcvoXZGkk6w"/>
     </childPackages>
-	    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zrzbgBceEeabuqEXyaLoow"
+	<childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zrzbgBceEeabuqEXyaLoow"
         name="VPPhase" guid="_zrzbgBceEeabuqEXyaLoow">
       <processElements xsi:type="org.eclipse.epf.uma:vpPhase" xmi:id="_zrzbgRceEeabuqEXyaLoow"
           name="VPPhase" guid="_zrzbgRceEeabuqEXyaLoow" presentationName="VPPhase"
@@ -112,6 +112,30 @@
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hJZ8cBfQEeaI4bQgvtYpbg"
           guid="_hJZ8cBfQEeaI4bQgvtYpbg" pred="_AulFYesZEeWqcvoXZGkk6w"/>
+    </childPackages>
+	   <processElements xsi:type="org.eclipse.epf.uma:VarPhase" xmi:id="_3sfCsRceEeabuqEXyaLoow"
+          name="VarPhase1" guid="_3sfCsRceEeabuqEXyaLoow" presentationName="VarPhase1"
+          superActivities="_6DQc4esYEeWqcvoXZGkk6w" breakdownElements="_wjG8QRfOEeaI4bQgvtYpbg"
+          vpName="VarPhase1" vId="131f8944-47aa-45e9-9670-247b45da2720" description="">
+        <presentation xmi:id="_3sfCshceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_3sfCshceEeabuqEXyaLoow"/>
+        <client xsi:type="org.eclipse.epf.uma:variant2variant" xmi:id="_AaQEERcfEeabuqEXyaLoow"
+            client="_3sfCsRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
+        <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_-AnTMBceEeabuqEXyaLoow"
+            isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_3sfCsRceEeabuqEXyaLoow"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_5GEr0BceEeabuqEXyaLoow"
+        name="VarPhase2" guid="_5GEr0BceEeabuqEXyaLoow">
+      <processElements xsi:type="org.eclipse.epf.uma:VarPhase" xmi:id="_5GEr0RceEeabuqEXyaLoow"
+          name="VarPhase2" guid="_5GEr0RceEeabuqEXyaLoow" presentationName="VarPhase2"
+          superActivities="_6DQc4esYEeWqcvoXZGkk6w" vpName="VarPhase2" vId="3a33a950-e0cb-45ac-a5de-a692f96d1fbb"
+          description="">
+        <presentation xmi:id="_5GEr0hceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_5GEr0hceEeabuqEXyaLoow"/>
+        <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_-AnTMRceEeabuqEXyaLoow"
+            isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
+        <supplier xsi:type="org.eclipse.epf.uma:variant2variant" xmi:id="_AaQEEBcfEeabuqEXyaLoow"
+            client="_3sfCsRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
+      </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_COxs0OsZEeWqcvoXZGkk6w"
         name="Transition" guid="_COxs0OsZEeWqcvoXZGkk6w">
@@ -186,30 +210,6 @@
             name="IterVarPhase1" guid="_wjG8QRfOEeaI4bQgvtYpbg" presentationName="IterVarPhase1"
             superActivities="_3sfCsRceEeabuqEXyaLoow" isRepeatable="true"/>
       </childPackages>
-      <processElements xsi:type="org.eclipse.epf.uma:VarPhase" xmi:id="_3sfCsRceEeabuqEXyaLoow"
-          name="VarPhase1" guid="_3sfCsRceEeabuqEXyaLoow" presentationName="VarPhase1"
-          superActivities="_6DQc4esYEeWqcvoXZGkk6w" breakdownElements="_wjG8QRfOEeaI4bQgvtYpbg"
-          vpName="VarPhase1" vId="131f8944-47aa-45e9-9670-247b45da2720" description="">
-        <presentation xmi:id="_3sfCshceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_3sfCshceEeabuqEXyaLoow"/>
-        <client xsi:type="org.eclipse.epf.uma:variant2variant" xmi:id="_AaQEERcfEeabuqEXyaLoow"
-            client="_3sfCsRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
-        <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_-AnTMBceEeabuqEXyaLoow"
-            isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_3sfCsRceEeabuqEXyaLoow"/>
-      </processElements>
-    </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_5GEr0BceEeabuqEXyaLoow"
-        name="VarPhase2" guid="_5GEr0BceEeabuqEXyaLoow">
-      <processElements xsi:type="org.eclipse.epf.uma:VarPhase" xmi:id="_5GEr0RceEeabuqEXyaLoow"
-          name="VarPhase2" guid="_5GEr0RceEeabuqEXyaLoow" presentationName="VarPhase2"
-          superActivities="_6DQc4esYEeWqcvoXZGkk6w" vpName="VarPhase2" vId="3a33a950-e0cb-45ac-a5de-a692f96d1fbb"
-          description="">
-        <presentation xmi:id="_5GEr0hceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_5GEr0hceEeabuqEXyaLoow"/>
-        <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_-AnTMRceEeabuqEXyaLoow"
-            isInclusive="true" client="_zrzbgRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
-        <supplier xsi:type="org.eclipse.epf.uma:variant2variant" xmi:id="_AaQEEBcfEeabuqEXyaLoow"
-            client="_3sfCsRceEeabuqEXyaLoow" supplier="_5GEr0RceEeabuqEXyaLoow"/>
-      </processElements>
-    </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NRZVoBcfEeabuqEXyaLoow"
         name="vpActivity" guid="_NRZVoBcfEeabuqEXyaLoow">
       <processElements xsi:type="org.eclipse.epf.uma:vpActivity" xmi:id="_NRZVoRcfEeabuqEXyaLoow"
