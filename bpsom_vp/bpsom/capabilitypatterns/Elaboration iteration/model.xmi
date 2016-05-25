@@ -80,8 +80,7 @@
       <selectedSteps href="uma://-6vlZ2GVIZ2IkX1FuyNOBcA#_mGLWgPASEeWvO5pgCiF2Uw"/>
       <selectedSteps href="uma://-6vlZ2GVIZ2IkX1FuyNOBcA#_ohp6cPASEeWvO5pgCiF2Uw"/>
     </processElements>
-	
-	 <processElements xsi:type="org.eclipse.epf.uma:vpTaskDescriptor" xmi:id="_kI_N4BceEeabuqEXyaLoow"
+	<processElements xsi:type="org.eclipse.epf.uma:vpTaskDescriptor" xmi:id="_kI_N4BceEeabuqEXyaLoow"
         name="VPTask" guid="_kI_N4BceEeabuqEXyaLoow" presentationName="VPTask"
         vpName="VPTask" vId="bb710558-a9ba-4700-9200-325f95434613" description=""
         max="-1">
@@ -107,7 +106,6 @@
       <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_tt89ARceEeabuqEXyaLoow"
           isInclusive="true" client="_kI_N4BceEeabuqEXyaLoow" supplier="_oQ1NABceEeabuqEXyaLoow"/>
     </processElements>
-	
     <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fV5YdBfFEeaI4bQgvtYpbg"
         name="investigate_existing_services" guid="_fV5YdBfFEeaI4bQgvtYpbg" presentationName="D3 - Investigate existing services"
         superActivities="_f3RpeOseEeWAy8cP-CDtOg" linkToPredecessor="_TlF4UBfPEeaI4bQgvtYpbg"
