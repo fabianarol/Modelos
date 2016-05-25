@@ -251,6 +251,32 @@
           name="VarTask2" guid="_Vs6JYBcfEeabuqEXyaLoow" presentationName="TaskVar2"
           superActivities="_RXlu8RcfEeabuqEXyaLoow"/>
     </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:vpTaskDescriptor" xmi:id="_kI_N4BceEeabuqEXyaLoow"
+        name="VPTask" guid="_kI_N4BceEeabuqEXyaLoow" presentationName="VPTask" superActivities="_6DQc4esYEeWqcvoXZGkk6w"
+        vpName="VPTask" vId="bb710558-a9ba-4700-9200-325f95434613" description=""
+        max="-1">
+      <presentation xmi:id="_kI_N4RceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_kI_N4RceEeabuqEXyaLoow"/>
+      <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_tt89AhceEeabuqEXyaLoow"
+          isInclusive="true" client="_kI_N4BceEeabuqEXyaLoow" supplier="_me1D4BceEeabuqEXyaLoow"/>
+      <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_tt89AxceEeabuqEXyaLoow"
+          isInclusive="true" client="_kI_N4BceEeabuqEXyaLoow" supplier="_oQ1NABceEeabuqEXyaLoow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:VarTaskDescriptor" xmi:id="_me1D4BceEeabuqEXyaLoow"
+        name="VarTask1" guid="_me1D4BceEeabuqEXyaLoow" presentationName="VarTask1"
+        superActivities="_6DQc4esYEeWqcvoXZGkk6w" vpName="VarTask1" vId="0bc57eab-57c3-47a3-a816-15f410c1d229"
+        description="">
+      <presentation xmi:id="_me1D4RceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_me1D4RceEeabuqEXyaLoow"/>
+      <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_tt89ABceEeabuqEXyaLoow"
+          isInclusive="true" client="_kI_N4BceEeabuqEXyaLoow" supplier="_me1D4BceEeabuqEXyaLoow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:VarTaskDescriptor" xmi:id="_oQ1NABceEeabuqEXyaLoow"
+        name="VarTask2" guid="_oQ1NABceEeabuqEXyaLoow" presentationName="VarTask2"
+        superActivities="_6DQc4esYEeWqcvoXZGkk6w" vpName="VarTask2" vId="3dd7b710-0d91-426d-8e9c-db5cd8d3f1ce"
+        description="">
+      <presentation xmi:id="_oQ1NARceEeabuqEXyaLoow" href="uma://-43ZCo05h91sNXMDWq9YW0g#_oQ1NARceEeabuqEXyaLoow"/>
+      <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_tt89ARceEeabuqEXyaLoow"
+          isInclusive="true" client="_kI_N4BceEeabuqEXyaLoow" supplier="_oQ1NABceEeabuqEXyaLoow"/>
+    </processElements>
     <processElements xsi:type="org.eclipse.epf.uma:vpRoleDescriptor" xmi:id="_Awpz0BfNEeaI4bQgvtYpbg"
         name="vpRole" guid="_Awpz0BfNEeaI4bQgvtYpbg" presentationName="vpRole" superActivities="_6DQc4esYEeWqcvoXZGkk6w"
         vpName="vpRole" vId="8761bbf3-ea18-4a9b-bb03-916ba53f58e1" description=""
