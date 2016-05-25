@@ -248,7 +248,6 @@
             isInclusive="true" client="_NRZVoRcfEeabuqEXyaLoow" supplier="_RXlu8RcfEeabuqEXyaLoow"/>
       </processElements>
     </childPackages>
-
     <processElements xsi:type="org.eclipse.epf.uma:vpRoleDescriptor" xmi:id="_Awpz0BfNEeaI4bQgvtYpbg"
         name="vpRole" guid="_Awpz0BfNEeaI4bQgvtYpbg" presentationName="vpRole" superActivities="_6DQc4esYEeWqcvoXZGkk6w"
         vpName="vpRole" vId="8761bbf3-ea18-4a9b-bb03-916ba53f58e1" description=""
