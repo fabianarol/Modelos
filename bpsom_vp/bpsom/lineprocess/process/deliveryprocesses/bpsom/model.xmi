@@ -82,7 +82,7 @@
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_kmBfMBfOEeaI4bQgvtYpbg"
           guid="_kmBfMBfOEeaI4bQgvtYpbg" pred="__aC7YesYEeWqcvoXZGkk6w"/>
     </childPackages>
-	 <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zrzbgBceEeabuqEXyaLoow"
+	    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zrzbgBceEeabuqEXyaLoow"
         name="VPPhase" guid="_zrzbgBceEeabuqEXyaLoow">
       <processElements xsi:type="org.eclipse.epf.uma:vpPhase" xmi:id="_zrzbgRceEeabuqEXyaLoow"
           name="VPPhase" guid="_zrzbgRceEeabuqEXyaLoow" presentationName="VPPhase"
