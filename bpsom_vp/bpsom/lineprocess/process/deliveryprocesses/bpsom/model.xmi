@@ -235,7 +235,7 @@
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_TX4ywBcfEeabuqEXyaLoow"
           name="TaskVar1" guid="_TX4ywBcfEeabuqEXyaLoow" presentationName="TaskVar1"
-          superActivities="_PtaFERcfEeabuqEXyaLoow"/>
+		  performedPrimarilyBy="_QJE4ECavEeaZIa_UqJmGHQ" superActivities="_PtaFERcfEeabuqEXyaLoow"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_RXlu8BcfEeabuqEXyaLoow"
         name="VarActivity2" guid="_RXlu8BcfEeabuqEXyaLoow">
@@ -249,12 +249,12 @@
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Vs6JYBcfEeabuqEXyaLoow"
           name="TaskVar2" guid="_Vs6JYBcfEeabuqEXyaLoow" presentationName="TaskVar2"
-          superActivities="_RXlu8RcfEeabuqEXyaLoow"/>
+          superActivities="_RXlu8RcfEeabuqEXyaLoow"  performedPrimarilyBy="_Awpz0BfNEeaI4bQgvtYpbg"/>
     </childPackages>
     <processElements xsi:type="org.eclipse.epf.uma:vpRoleDescriptor" xmi:id="_Awpz0BfNEeaI4bQgvtYpbg"
         name="vpRole" guid="_Awpz0BfNEeaI4bQgvtYpbg" presentationName="vpRole" superActivities="_6DQc4esYEeWqcvoXZGkk6w"
-        vpName="vpRole" vId="8761bbf3-ea18-4a9b-bb03-916ba53f58e1" description=""
-        min="1" max="-1">
+        responsibleFor="_luQGMCauEeaZIa_UqJmGHQ _luQGMSauEeaZIa_UqJmGHQ _i-qVQBfNEeaI4bQgvtYpbg" vpName="vpRole"
+        vId="8761bbf3-ea18-4a9b-bb03-916ba53f58e1" description="" min="1" max="-1">
       <presentation xmi:id="_CkfwABfNEeaI4bQgvtYpbg" href="uma://-43ZCo05h91sNXMDWq9YW0g#_CkfwABfNEeaI4bQgvtYpbg"/>
       <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_V4HVwhfNEeaI4bQgvtYpbg"
           isInclusive="true" client="_Awpz0BfNEeaI4bQgvtYpbg" supplier="_NQ0IwBfNEeaI4bQgvtYpbg"/>
@@ -299,6 +299,53 @@
       <presentation xmi:id="_nZVw0RfNEeaI4bQgvtYpbg" href="uma://-43ZCo05h91sNXMDWq9YW0g#_nZVw0RfNEeaI4bQgvtYpbg"/>
       <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_vhAbgRfNEeaI4bQgvtYpbg"
           isInclusive="true" client="_i-qVQBfNEeaI4bQgvtYpbg" supplier="_nZVw0BfNEeaI4bQgvtYpbg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_luQGMCauEeaZIa_UqJmGHQ"
+        name="business_processes_document" guid="_luQGMCauEeaZIa_UqJmGHQ" presentationName="Business Processes document"
+        isPlanned="false" superActivities="_6DQc4esYEeWqcvoXZGkk6w">
+      <WorkProduct xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_2ftQ0OvMEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_luQGMSauEeaZIa_UqJmGHQ"
+        name="testing_reports" guid="_luQGMSauEeaZIa_UqJmGHQ" presentationName="Testing reports"
+        isPlanned="false" superActivities="_6DQc4esYEeWqcvoXZGkk6w">
+      <WorkProduct xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_kxdi4OvLEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:vpTaskDescriptor" xmi:id="_4J5iICauEeaZIa_UqJmGHQ"
+        name="vpTask" guid="_4J5iICauEeaZIa_UqJmGHQ" presentationName="vpTask" superActivities="_PtaFERcfEeabuqEXyaLoow"
+        additionallyPerformedBy="_RwmPgCavEeaZIa_UqJmGHQ" performedPrimarilyBy="_QJE4ECavEeaZIa_UqJmGHQ"
+        vpName="vpTask" vId="a28a416a-87a3-451e-8715-df7f53566357" description=""
+        max="1">
+      <presentation xmi:id="_4J5iISauEeaZIa_UqJmGHQ" href="uma://-43ZCo05h91sNXMDWq9YW0g#_4J5iISauEeaZIa_UqJmGHQ"/>
+      <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_NgE1giavEeaZIa_UqJmGHQ"
+          isInclusive="true" client="_4J5iICauEeaZIa_UqJmGHQ" supplier="_BKTysCavEeaZIa_UqJmGHQ"/>
+      <client xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_NgE1gyavEeaZIa_UqJmGHQ"
+          isInclusive="true" client="_4J5iICauEeaZIa_UqJmGHQ" supplier="_I1adMCavEeaZIa_UqJmGHQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:VarTaskDescriptor" xmi:id="_BKTysCavEeaZIa_UqJmGHQ"
+        name="VarTaskDescriptor1" guid="_BKTysCavEeaZIa_UqJmGHQ" presentationName="VarTaskDescriptor1"
+        superActivities="_6DQc4esYEeWqcvoXZGkk6w" vpName="VarTaskDescriptor1" vId="9e946cac-2aa7-456d-b9c4-bb481aa137c8"
+        description="">
+      <presentation xmi:id="_BKTysSavEeaZIa_UqJmGHQ" href="uma://-43ZCo05h91sNXMDWq9YW0g#_BKTysSavEeaZIa_UqJmGHQ"/>
+      <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_NgE1gCavEeaZIa_UqJmGHQ"
+          isInclusive="true" client="_4J5iICauEeaZIa_UqJmGHQ" supplier="_BKTysCavEeaZIa_UqJmGHQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:VarTaskDescriptor" xmi:id="_I1adMCavEeaZIa_UqJmGHQ"
+        name="VarTaskDescriptor2" guid="_I1adMCavEeaZIa_UqJmGHQ" presentationName="VarTaskDescriptor2"
+        superActivities="_6DQc4esYEeWqcvoXZGkk6w" vpName="VarTaskDescriptor2" vId="fbbcc4ce-8626-4ca0-934f-66e1e28a844e"
+        description="">
+      <presentation xmi:id="_I1adMSavEeaZIa_UqJmGHQ" href="uma://-43ZCo05h91sNXMDWq9YW0g#_I1adMSavEeaZIa_UqJmGHQ"/>
+      <supplier xsi:type="org.eclipse.epf.uma:varp2variant" xmi:id="_NgE1gSavEeaZIa_UqJmGHQ"
+          isInclusive="true" client="_4J5iICauEeaZIa_UqJmGHQ" supplier="_I1adMCavEeaZIa_UqJmGHQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_QJE4ECavEeaZIa_UqJmGHQ"
+        name="analyst" guid="_QJE4ECavEeaZIa_UqJmGHQ" presentationName="Analyst" isPlanned="false"
+        superActivities="_6DQc4esYEeWqcvoXZGkk6w">
+      <Role href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_6V7w8OvLEeW3MJIMM8_7UQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_RwmPgCavEeaZIa_UqJmGHQ"
+        name="business_analyst" guid="_RwmPgCavEeaZIa_UqJmGHQ" presentationName="Business Analyst"
+        isPlanned="false" superActivities="_6DQc4esYEeWqcvoXZGkk6w">
+      <Role href="uma://_Ny5NEOsVEeWqcvoXZGkk6w#_AhEdgOvMEeW3MJIMM8_7UQ"/>
     </processElements>
     <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_6DQc4esYEeWqcvoXZGkk6w"
         name="bpsom" guid="_6DQc4esYEeWqcvoXZGkk6w" presentationName="bpsom" processLineName="process"
